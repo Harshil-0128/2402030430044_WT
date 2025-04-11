@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #3e1f1f;
+  }
+  
+  .header {
+    padding: 10px 20px;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons i {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .search-box {
+    background: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .search-box i {
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .search-box input {
+    border: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .chips {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+  
+  .chip {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    border: 2px solid #4c2a2a;
+    color: #4c2a2a;
+  }
+  
+  .promo-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .promo-card {
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .promo-card img {
+    width: 70px;
+    height: auto;
+  }
+  
+  .promo-card.beige {
+    background-color: #d9cfc5;
+    flex-direction: row;
+  }
+  
+  .promo-card.dark {
+    background-color: #4c2a2a;
+    color: #fff;
+    flex-direction: row;
+  }
+  
+  .promo-card .content {
+    max-width: 60%;
+  }
+  
+  .badge {
+    background: red;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .yellow-btn {
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .product-card {
+    position: relative;
+    margin: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .product-card img {
+    width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .product-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(60, 30, 30, 0.7);
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+  }
+  
